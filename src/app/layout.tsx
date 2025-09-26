@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Quick Zap - WhatsApp Message Sender",
-  description: "Send direct messages to WhatsApp using wa.me links with country selection",
+  description:
+    "Send direct messages to WhatsApp using wa.me links with country selection",
 };
 
 export default function RootLayout({
@@ -31,8 +32,8 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
-          enableSystem
           disableTransitionOnChange
+          enableSystem
         >
           {children}
         </ThemeProvider>
